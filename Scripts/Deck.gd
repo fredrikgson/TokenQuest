@@ -8,28 +8,18 @@ onready var draw_audio_stream = $AudioStreamPlayer2D
 ## DECK
 var deck = []
 var deck_loaded = false
-const COMMON_CARDS:int = 20
-const RARE_CARDS:int = 12
-const EPIC_CARDS:int = 7
-const LEGENDARY_CARDS:int = 1
+
+## the amount values of the different card types
+const COMMON_CARDS:int = 21
+const RARE_CARDS:int = 16
+const EPIC_CARDS:int = 9
+const LEGENDARY_CARDS:int = 2
 
 func _ready():
 	
-	## construct the deck
-	## first, get all cards
+	## this is the algorithm that builds a pseudo-random deck
+	## first, get all Card resource files from the Cards folder
 	var all_cards = get_all_cards()
-	
-	
-	## debug
-#	print("Commons: " + str(filter_commons(all_cards).size()))
-#	print("Rares: " + str(filter_rares(all_cards).size()))
-#	print("Epics: " + str(filter_epics(all_cards).size()))
-#	print("Legendaries: " + str(filter_legendaries(all_cards).size()))
-#	print("Superlegendaries: " + str(filter_superlegendaries(all_cards).size()))
-#
-#	for i in filter_superlegendaries(all_cards):
-#		print(i.card_name)
-	
 	
 	## next, populate deck with cards of different rarities
 	## COMMONS
@@ -57,14 +47,14 @@ func _ready():
 		deck.append(legendaries.front())
 	
 	
-	## include superlegendary?
+	## include superlegendary? 
 	## we cannot have both superlegendary and horsemen
 	if (randi()%4) < 1:
 		var superlegendaries = filter_superlegendaries(all_cards)
 		superlegendaries.shuffle()
 		deck.append(superlegendaries.front())
 	else:
-		## horseman game?
+		## if no superlegendary, horseman game?
 		if (randi()%2) < 1:
 			deck.append(load("res://Cards/HorsemanOfDeath.tres"))
 			deck.append(load("res://Cards/HorsemanOfPestilence.tres"))
@@ -77,18 +67,19 @@ func _ready():
 	deck.push_front(load("res://Cards/Dawn.tres"))
 	deck.push_back(load("res://Cards/Dusk.tres"))
 	
-	## DEBUG
-	#deck.push_front(load("res://Cards/HorsemanOfFamine.tres"))
+	## FOR DEBUGGING PURPOSES
+	#deck.push_front(load("res://Cards/StormDietysRetribution.tres"))
 	
 	## finally
 	deck_loaded = true
 
 
+## drawing cards from the deck
 func _on_Deck_input_event(_viewport, event, _shape_idx):
 	if event is InputEventMouseButton and event.pressed and deck_loaded and deck.size() > 0:
 		if Mstr.state == Mstr.States.IDLE:
 			
-			## if last card, hide card below
+			## if last card, hide the dummy card below to indicate that the deck is empty
 			if deck.size() <= 1:
 				$RestOfDeck.visible = false
 			
@@ -119,7 +110,7 @@ func _on_ChangeStateToIdle_timeout():
 
 
 
-func get_all_cards(): #returns an array of all possible cards in the game
+func get_all_cards(): #returns an array of all Card resources in the game
 	var all_cards = []
 	var dir = Directory.new()
 	if dir.open("res://Cards/") == OK:

@@ -7,6 +7,6 @@
 script = ExtResource( 1 )
 card_name = "Wordsmiths' Battle"
 card_type = 3
-card_text = "Choose a category and a word. The next player says a word beginning with the last letter of the previous word. Stop when a player fails. They take 2 swigs."
+card_text = "Choose a category and a word. The next player says a word beginning with the last letter of the previous word. Stop when a player fails. They take 4 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 2

@@ -10,6 +10,6 @@ enum States {
 }
 var state = States.IDLE
 
-
+## seed is randomized at game start
 func _ready():
 	randomize()

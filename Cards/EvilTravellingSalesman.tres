@@ -7,6 +7,6 @@
 script = ExtResource( 1 )
 card_name = "Evil Travelling Salesman"
 card_type = 2
-card_text = "You meet an Evil Travelling Salesman. Spend 0-3 Tokens. Distribute twice the amount of swigs among all players."
+card_text = "You meet an Evil Travelling Salesman. Spend 0-3 Tokens. Distribute four times the amount of swigs among all players."
 card_art = ExtResource( 2 )
 card_rarity = 1

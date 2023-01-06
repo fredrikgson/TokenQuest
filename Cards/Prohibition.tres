@@ -7,6 +7,6 @@
 script = ExtResource( 1 )
 card_name = "Prohibition"
 card_type = 5
-card_text = "The King issues a new law. Declare a word. For the rest of the game, when a player says that word, they must take one swig."
+card_text = "The King issues a new law. Declare a word. For the rest of the game, when a player says that word, they must take a swig."
 card_art = ExtResource( 2 )
 card_rarity = 1

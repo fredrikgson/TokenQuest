@@ -7,6 +7,6 @@
 script = ExtResource( 1 )
 card_name = "Kind Stranger"
 card_type = 3
-card_text = "A kind stranger buys a round of drinks for everyone. All players take two swigs."
+card_text = "A kind stranger buys a round of drinks for everyone. All players take 4 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 0

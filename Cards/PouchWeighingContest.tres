@@ -7,6 +7,6 @@
 script = ExtResource( 1 )
 card_name = "Pouch Weighing Contest"
 card_type = 4
-card_text = "You and a snobby stranger compare pouches. The player with lesser Tokens takes 4 swigs (or both, if tied)."
+card_text = "You and a snobby stranger compare pouches. The player with lesser Tokens takes 6 swigs (or both, if tied)."
 card_art = ExtResource( 2 )
 card_rarity = 1

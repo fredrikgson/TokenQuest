@@ -7,6 +7,6 @@
 script = ExtResource( 1 )
 card_name = "Token Shield"
 card_type = 1
-card_text = "Take 10 swigs MINUS the amount of Tokens you have."
+card_text = "Take 20 swigs MINUS the amount of Tokens you have."
 card_art = ExtResource( 2 )
 card_rarity = 2

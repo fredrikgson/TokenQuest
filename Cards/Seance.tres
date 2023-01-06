@@ -7,6 +7,6 @@
 script = ExtResource( 1 )
 card_name = "Seance"
 card_type = 3
-card_text = "Your friend group invokes some black magic. All players play a Game of Whispers. If you fail, all players take 4 swigs. If you win, all players gain 1 Token."
+card_text = "Your friend group invokes some black magic. All players play a Game of Whispers. If you fail, all players take 8 swigs. If you win, all players gain 1 Token."
 card_art = ExtResource( 2 )
 card_rarity = 2

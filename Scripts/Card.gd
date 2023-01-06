@@ -1,32 +1,7 @@
 extends Area2D
 
-
-### DEBUG
-#var cards = [
-#	load("res://Cards/AndJusticeForAll.tres"),
-#	load("res://Cards/BubbleMaster.tres"),
-#	load("res://Cards/CropHarvesting.tres"),
-#	load("res://Cards/EvilTravellingSalesman.tres"),
-#	load("res://Cards/HiredThief.tres"),
-#	load("res://Cards/KindStranger.tres"),
-#	load("res://Cards/LastManStanding.tres"),
-#	load("res://Cards/MarketDay.tres"),
-#	load("res://Cards/Plague.tres"),
-#	load("res://Cards/Prohibition.tres"),
-#	load("res://Cards/PubBrawl.tres"),
-#	load("res://Cards/PurchaseAPint.tres"),
-#	load("res://Cards/RockPaperScissors.tres"),
-#	load("res://Cards/Seance.tres"),
-#	load("res://Cards/TheExiled.tres"),
-#	load("res://Cards/ThisRoundsOnMe.tres"),
-#	load("res://Cards/TravellingSalesman.tres"),
-#	load("res://Cards/TreasureChest.tres"),
-#	load("res://Cards/WitchsTrial.tres"),
-#	load("res://Cards/Jousting.tres"),
-#]
-
-
-## duel opponents
+## possible opponents for Duel cards
+## one of these strings will be appended to the card text is it is a Duel card
 var duel_opponents = [
 	"the player across",
 	"the player to the left",
@@ -44,12 +19,7 @@ var duel_opponents = [
 	"the player with the most Tokens"
 ]
 
-
-#func _ready():
-#	cards.shuffle()
-#	var card_res = cards.front()
-#	init_from_resource(card_res)
-
+## remove from screen if user taps on the card
 func _on_Card_input_event(_viewport, event, _shape_idx):
 	if event is InputEventMouseButton and event.pressed:
 		if Mstr.state == Mstr.States.DISPLAYING_CARD:
@@ -63,6 +33,8 @@ func _on_AnimationPlayer_animation_finished(anim_name):
 		Mstr.state = Mstr.States.DISPLAYING_CARD
 
 
+## renders a card from a Card resource onto the Card shown
+## this is called from Deck.gd when a new card is drawn
 func init_from_resource(res:Card):
 	$Outline/BorderColor.self_modulate = res.get_border_color()
 	$Outline/CardArt.texture = res.card_art
@@ -70,7 +42,7 @@ func init_from_resource(res:Card):
 	$Outline/CardDescription.text = res.card_text
 	$Outline/RarityRing/RarityFill.self_modulate = res.get_rarity_color()
 	
-	## if Duel
+	## if Duel, append one of the duel_opponent strings to the card text
 	if res.card_type == res.CardTypes.DUEL:
 		duel_opponents.shuffle()
 		var opp = duel_opponents.front()

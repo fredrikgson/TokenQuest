@@ -7,6 +7,6 @@
 script = ExtResource( 1 )
 card_name = "Dusk"
 card_type = 3
-card_text = "The sun sets over your village and the day is over. The player with the most Tokens has won the game!"
+card_text = "The player with the most Tokens has won the game! All players may now freely distribute a number of swigs up to the amount of Tokens they have."
 card_art = ExtResource( 2 )
 card_rarity = 5

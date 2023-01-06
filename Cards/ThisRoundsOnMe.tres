@@ -7,6 +7,6 @@
 script = ExtResource( 1 )
 card_name = "This Round's On Me"
 card_type = 0
-card_text = "You're feeling generous and decide to buy a round of drinks for your friends. Distribute 4 swigs freely among all players."
+card_text = "You're feeling generous and decide to buy a round of drinks for your friends. Distribute 8 swigs freely among all players."
 card_art = ExtResource( 2 )
 card_rarity = 0
