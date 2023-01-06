@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/prohibition.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Prohibition"
+card_type = 5
+card_text = "The King issues a new law. Declare a word. For the rest of the game, when a player says that word, they must take one swig."
+card_art = ExtResource( 2 )
+card_rarity = 1

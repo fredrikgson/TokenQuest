@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/taxation.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Taxation"
+card_type = 3
+card_text = "The king collects tax from all citizens. All players lose 1 Token. If a player cannot, they take 2 swigs."
+card_art = ExtResource( 2 )
+card_rarity = 1

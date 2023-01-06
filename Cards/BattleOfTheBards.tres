@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/battle_of_the_bards.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Battle Of The Bards"
+card_type = 3
+card_text = "Declare any word. The first player to begin singing a song containing that word gains 2 Tokens. Also, you gain 2 Tokens. All other players take 4 swigs."
+card_art = ExtResource( 2 )
+card_rarity = 2

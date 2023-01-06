@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/storm_dietys_retribution.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Storm Diety's Retribution"
+card_type = 3
+card_text = "An ancient god has awoken. It purges the land of the unworthy. All players lose 5 Tokens, then, the players that have 0 Tokens finish their entire drink."
+card_art = ExtResource( 2 )
+card_rarity = 4

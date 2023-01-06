@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/jousting.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Jousting"
+card_type = 4
+card_text = "You enter a jousting tournament. Play a round of thumb war. The winner claims two Tokens from the loser."
+card_art = ExtResource( 2 )
+card_rarity = 1

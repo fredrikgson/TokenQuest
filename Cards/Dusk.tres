@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/dusk.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Dusk"
+card_type = 3
+card_text = "The sun sets over your village and the day is over. The player with the most Tokens has won the game!"
+card_art = ExtResource( 2 )
+card_rarity = 5

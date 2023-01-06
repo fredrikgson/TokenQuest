@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/pouch_weighing_contest.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Pouch Weighing Contest"
+card_type = 4
+card_text = "You and a snobby stranger compare pouches. The player with lesser Tokens takes 4 swigs (or both, if tied)."
+card_art = ExtResource( 2 )
+card_rarity = 1

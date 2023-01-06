@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/health_potion.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Health Potion"
+card_type = 0
+card_text = "You refresh yourself with a nice cold health potion. Gain 1 Token."
+card_art = ExtResource( 2 )
+card_rarity = 0

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/big_game_hunting.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Big-Game Hunting"
+card_type = 0
+card_text = "Your hunt was a success and you decide to invite a friend over for dinner. Gain 1 Token, then choose any player (besides yourself) to gain 1 Token."
+card_art = ExtResource( 2 )
+card_rarity = 0

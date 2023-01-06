@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/the_exiled.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "The Exiled"
+card_type = 5
+card_text = "You have been exiled from the village. For the rest of the game, whenever a player refers to you by name, that player takes one swig."
+card_art = ExtResource( 2 )
+card_rarity = 2

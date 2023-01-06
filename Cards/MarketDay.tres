@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/market_day.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Market Day"
+card_type = 3
+card_text = "Salesmen from all over the land have set up shop for the day. All players may gain 0-4 Tokens (their choice), then take one swig for each Token gained."
+card_art = ExtResource( 2 )
+card_rarity = 1

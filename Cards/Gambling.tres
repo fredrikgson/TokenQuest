@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/gambling.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Gambling"
+card_type = 2
+card_text = "You play a round of craps with your buddies at the local pub. You can pay 1 Token to immediately draw another card (optional)."
+card_art = ExtResource( 2 )
+card_rarity = 0

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/The_knighted.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "The Knighted"
+card_type = 5
+card_text = "You have been knighted by the king. Choose a title for yourself. When a player refers to you by something other than this title, they take 1 swig."
+card_art = ExtResource( 2 )
+card_rarity = 2

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/swig_master.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Swig Master"
+card_type = 2
+card_text = "The Swig Master teaches you how to chug brew like a champion. The next time you would lose 1 or more Tokens, you may take 1 swig instead."
+card_art = ExtResource( 2 )
+card_rarity = 1
