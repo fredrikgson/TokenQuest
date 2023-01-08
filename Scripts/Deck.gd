@@ -17,6 +17,11 @@ const LEGENDARY_CARDS:int = 2
 
 func _ready():
 	
+	# center the deck vertically
+	# defeats a problem where the deck 
+	# would show up att different heights depending on the device
+	align_deck_vertically(get_viewport_rect().size.y)
+	
 	## this is the algorithm that builds a pseudo-random deck
 	## first, get all Card resource files from the Cards folder
 	var all_cards = get_all_cards()
@@ -156,3 +161,8 @@ func filter_superlegendaries(all_cards):
 		if i.card_rarity == i.CardRarities.SUPERLEGENDARY:
 			superlegendaries.append(i)
 	return superlegendaries
+
+
+
+func align_deck_vertically(window_height):
+	self.position.y = window_height / 2
