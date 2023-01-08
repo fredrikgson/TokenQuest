@@ -21,29 +21,29 @@ Determine which player will go first by any means of your choice (roll a die, ma
 ###### *The information that follows is not necessary to play the game, but is intended for the curious!*
 #### --- Cards ---
 There are different **types** of cards in TokenQuest. The type is indicated by the color of the card border:
-**Treasure** (Green) - A benefit to the player who drew the card.
-**Trap** (Red) - A detriment to the player who drew the card.
-**Quest** (Yellow) - An action to be taken by the player who drew the card.
-**Event** (White) - A card that affects all players.
-**Duel** (Purple) - A "minigame" between two players.
-**Rule** (Blue) - A change to how the game is played.
+- **Treasure** (Green) - A benefit to the player who drew the card.
+- **Trap** (Red) - A detriment to the player who drew the card.
+- **Quest** (Yellow) - An action to be taken by the player who drew the card.
+- **Event** (White) - A card that affects all players.
+- **Duel** (Purple) - A "minigame" between two players.
+- **Rule** (Blue) - A change to how the game is played.
 
 These definitions are not necessary to know in order to play the game, as all instructions will be printed on the card.
 
 
 In addition, there are also different card **rarities**. A card's rarity is indicated by the small colored circle in the top left corner.
-**Common** (White)
-**Rare** (Blue)
-**Epic** (Purple)
-**Legendary** (Gold/Yellow)
-**Superlegendary** (Black)
-**Special** - Reserved for certain cards that will have special treatment in the deck building algorhithm.
+- **Common** (White)
+- **Rare** (Blue)
+- **Epic** (Purple)
+- **Legendary** (Gold/Yellow)
+- **Superlegendary** (Black)
+- **Special** - Reserved for certain cards that will have special treatment in the deck building algorhithm.
 
 
 Certain cards are anomalies, and aren't treated in the same regard as regular cards in the deck building algorhithm.
-**Dawn and Dusk** - Will always be the first and last card in every deck.
-**The Four Horsemen** - Four unique cards which add a unique mechanic to a game of TokenQuest. They will not appear in every game, but when they do, all four of them will be in the deck.
-**Superlegendaries** - Very rare cards with highly impactful effects that appear in far from every deck.
+- **Dawn and Dusk** - Will always be the first and last card in every deck.
+- **The Four Horsemen** - Four unique cards which add a unique mechanic to a game of TokenQuest. They will not appear in every game, but when they do, all four of them will be in the deck.
+- **Superlegendaries** - Very rare cards with highly impactful effects that appear in far from every deck.
 
 
 
