@@ -8,15 +8,20 @@
 script = ExtResource( 4 )
 
 [node name="GameLogo" type="Sprite" parent="."]
-position = Vector2( 540, 640 )
+position = Vector2( 540, 520 )
 texture = ExtResource( 1 )
 
 [node name="PlayButton" parent="." instance=ExtResource( 2 )]
-position = Vector2( 540, 1200 )
+position = Vector2( 540, 1056 )
 button_text = "New Game"
 target_scene = "res://Scenes/Game.tscn"
 
 [node name="RulesButton" parent="." instance=ExtResource( 2 )]
-position = Vector2( 540, 1484 )
+position = Vector2( 540, 1340 )
 button_text = "How To Play"
 target_scene = "res://Scenes/HowToPlay.tscn"
+
+[node name="CardDBButton2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 540, 1624 )
+button_text = "Card Database"
+target_scene = "res://Scenes/CardDatabase.tscn"

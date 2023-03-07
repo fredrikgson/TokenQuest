@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/vow_of_silence.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Vow Of Silence"
+card_type = 1
+card_text = "Your search for spiritual catharsis leads you to take a vow of silence. You may not speak until the start of your next turn. Whenever you do, take 8 swigs."
+card_art = ExtResource( 2 )
+card_rarity = 1

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/the_artist.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "The Artist"
+card_type = 4
+card_text = "Using your finger, spell a word on Target's back. If they can guess it, you take 4 swigs. Otherwise they take 4 swigs."
+card_art = ExtResource( 2 )
+card_rarity = 2

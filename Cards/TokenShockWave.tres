@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/token_shock_wave.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Token Shock Wave"
+card_type = 3
+card_text = "You unleash the ancient magic of your Tokens. All other players take swigs equal to the number of Tokens you have."
+card_art = ExtResource( 2 )
+card_rarity = 3

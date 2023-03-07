@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/adventurers_quest.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Adventurer's Quest"
+card_type = 4
+card_text = "You have a mission for a brave adventurer. Give Target a dare. They must either do the dare OR take 8 swigs."
+card_art = ExtResource( 2 )
+card_rarity = 1

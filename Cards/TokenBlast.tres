@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/token_blast.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Token Blast"
+card_type = 2
+card_text = "You channel the energy of your Tokens into a powerful attack. Distribute swigs freely among all players, equal to the number of Tokens you have."
+card_art = ExtResource( 2 )
+card_rarity = 2

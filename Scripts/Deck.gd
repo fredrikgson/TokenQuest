@@ -10,9 +10,9 @@ var deck = []
 var deck_loaded = false
 
 ## the amount values of the different card types
-const COMMON_CARDS:int = 21
-const RARE_CARDS:int = 16
-const EPIC_CARDS:int = 9
+const COMMON_CARDS:int = 19
+const RARE_CARDS:int = 17
+const EPIC_CARDS:int = 10
 const LEGENDARY_CARDS:int = 2
 
 func _ready():
@@ -54,7 +54,7 @@ func _ready():
 	
 	## include superlegendary? 
 	## we cannot have both superlegendary and horsemen
-	if (randi()%4) < 1:
+	if (randi()%3) < 1:
 		var superlegendaries = filter_superlegendaries(all_cards)
 		superlegendaries.shuffle()
 		deck.append(superlegendaries.front())
@@ -73,7 +73,13 @@ func _ready():
 	deck.push_back(load("res://Cards/Dusk.tres"))
 	
 	## FOR DEBUGGING PURPOSES
-	#deck.push_front(load("res://Cards/StormDietysRetribution.tres"))
+	deck.push_front(load("res://Cards/HorsemanOfDeath.tres"))
+	
+	for i in deck:
+		print(i.card_name)
+	
+	## always begin game in idle state
+	Mstr.state = Mstr.States.IDLE
 	
 	## finally
 	deck_loaded = true

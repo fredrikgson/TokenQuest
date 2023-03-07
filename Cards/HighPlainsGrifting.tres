@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/high_plains_grifting.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "High Plains Grifting"
+card_type = 2
+card_text = "Declare a statement about yourself. All other players guess true or false. Claim 1 Token from each wrong player. Take 1 swig for each right player."
+card_art = ExtResource( 2 )
+card_rarity = 1

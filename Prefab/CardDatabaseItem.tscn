@@ -1,0 +1,52 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Graphics/UI/database_item_border.png" type="Texture" id=1]
+[ext_resource path="res://Graphics/UI/database_item_fill.png" type="Texture" id=2]
+[ext_resource path="res://Font/TitilliumWeb-Bold.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Graphics/rarity_fill.png" type="Texture" id=4]
+[ext_resource path="res://Graphics/rarity_ring.png" type="Texture" id=5]
+[ext_resource path="res://Scripts/CardDatabaseItem.gd" type="Script" id=6]
+
+[sub_resource type="DynamicFont" id=1]
+size = 55
+outline_size = 8
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 3 )
+
+[node name="CardDatabaseItem" type="Control"]
+margin_left = 440.0
+margin_right = 440.0
+mouse_filter = 2
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Border" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+centered = false
+offset = Vector2( 40, 0 )
+
+[node name="Fill" type="Sprite" parent="Border"]
+texture = ExtResource( 2 )
+centered = false
+offset = Vector2( 40, 0 )
+
+[node name="CardName" type="Label" parent="Border"]
+margin_left = 80.0
+margin_top = 55.0
+margin_right = 705.0
+margin_bottom = 155.0
+custom_fonts/font = SubResource( 1 )
+text = "Card Name"
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RarityRing" type="Sprite" parent="Border"]
+position = Vector2( 766, 104 )
+texture = ExtResource( 5 )
+
+[node name="RarityFill" type="Sprite" parent="Border/RarityRing"]
+texture = ExtResource( 4 )

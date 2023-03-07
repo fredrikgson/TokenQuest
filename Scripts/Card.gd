@@ -1,5 +1,9 @@
 extends Area2D
 
+## used for the double tap shenanigans
+## to prevent accidental tapping-removing
+var block_remove = true
+
 ## possible opponents for Duel cards
 ## one of these strings will be appended to the card text is it is a Duel card
 var duel_opponents = [
@@ -13,18 +17,24 @@ var duel_opponents = [
 	"the player with the largest feet",
 	"the player with the smallest feet",
 	"a player of your choice",
-	"the player with the most colourful outfit",
 	"the drunkest player",
 	"the least drunk player",
-	"the player with the most Tokens"
+	"the player with the most Tokens",
+	"the player you know the least",
+	"the player you know the best"
 ]
 
 ## remove from screen if user taps on the card
 func _on_Card_input_event(_viewport, event, _shape_idx):
 	if event is InputEventMouseButton and event.pressed:
 		if Mstr.state == Mstr.States.DISPLAYING_CARD:
-			get_tree().get_root().get_node("Game/Deck/ChangeStateToIdle").start()
-			queue_free()
+			if !block_remove:
+				get_tree().get_root().get_node("Game/Deck/ChangeStateToIdle").start()
+				queue_free()
+			else:
+				block_remove = false
+				$Outline.modulate.a = 0.8
+				$Timer.start()
 
 
 func _on_AnimationPlayer_animation_finished(anim_name):
@@ -46,4 +56,10 @@ func init_from_resource(res:Card):
 	if res.card_type == res.CardTypes.DUEL:
 		duel_opponents.shuffle()
 		var opp = duel_opponents.front()
-		$Outline/CardDescription.text += " Duel " + str(opp) + "."
+		$Outline/CardDescription.text += " Target " + str(opp) + "."
+
+
+## tap timer
+func _on_Timer_timeout():
+	block_remove = true
+	$Outline.modulate.a = 1

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/lawbook_typo.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Lawbook Typo"
+card_type = 5
+card_text = "A royal councilman made an error while writing the law. Exchange the meaning of two words. When a player messes up, they take 2 swigs."
+card_art = ExtResource( 2 )
+card_rarity = 2

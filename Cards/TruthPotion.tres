@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/truth_serum.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Truth Potion"
+card_type = 4
+card_text = "Ask Target any question. They must either answer the question truthfully OR take 8 swigs."
+card_art = ExtResource( 2 )
+card_rarity = 1
