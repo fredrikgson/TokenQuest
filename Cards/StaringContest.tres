@@ -10,3 +10,6 @@ card_type = 4
 card_text = "You lock eyes with a stranger at the pub. Play a staring contest. The winner claims 1 Token from the loser."
 card_art = ExtResource( 2 )
 card_rarity = 2
+extended_description = "On the count of three, lock eyes with Target player. Both players must keep their eyes open for as long as they can.
+
+When a player blinks, closes their eyes, or breaks eye contact, that player loses the staring contest and must forfeit 1 Token to the winner."

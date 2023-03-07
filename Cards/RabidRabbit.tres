@@ -10,3 +10,4 @@ card_type = 1
 card_text = "Oh no! You've been bitten by a ferocious rabbit. You're in need of medication. Lose 2 Tokens."
 card_art = ExtResource( 2 )
 card_rarity = 0
+extended_description = ""

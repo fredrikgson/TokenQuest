@@ -10,3 +10,4 @@ card_type = 3
 card_text = "The king collects tax from all citizens. All players lose 1 Token. If a player cannot, they take 4 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""

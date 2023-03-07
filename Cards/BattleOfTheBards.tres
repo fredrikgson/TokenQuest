@@ -10,4 +10,10 @@ card_type = 3
 card_text = "Declare any word. The first player to begin singing a song containing that word gains 2 Tokens. Also, you gain 2 Tokens. All other players take 6 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 2
-extended_description = "This is an extended description for the card Battle Of The Bards."
+extended_description = "The player who drew this card decides on any word and says it out loud. All other players must then try to sing a song that contains that word as part of the lyrics.
+
+The player who is first to start singing a valid song (i.e. a song that has the declared word somewhere in its' lyrics) is rewarded with 2 Tokens.
+
+The player who drew this card then gains 2 Tokens.
+
+All remaining players (i.e. the ones that 'lost') are penalized with 6 swigs."

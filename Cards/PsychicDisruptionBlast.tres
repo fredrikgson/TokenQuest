@@ -10,3 +10,4 @@ card_type = 3
 card_text = "A startled witch unleashes a powerful mind-altering spell by accident. Shift each player's Token pile one step to the left."
 card_art = ExtResource( 2 )
 card_rarity = 3
+extended_description = ""

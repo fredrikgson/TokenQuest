@@ -10,3 +10,4 @@ card_type = 0
 card_text = "You buy a loaf of bread from the local baker and share it with your neighbor. Gain 1 Token. The player to your right gains 1 Token."
 card_art = ExtResource( 2 )
 card_rarity = 0
+extended_description = ""

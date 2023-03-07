@@ -10,4 +10,8 @@ card_type = 2
 card_text = "Declare a statement about yourself. All other players guess true or false. Claim 1 Token from each wrong player. Take 1 swig for each right player."
 card_art = ExtResource( 2 )
 card_rarity = 1
-extended_description = ""
+extended_description = "Make a statement about yourself to the other players. It can be true or false. The other players then guess whether or not the statement was true.
+
+Each player that was wrong must surrender 1 Token to you.
+
+For each player that was right, you must take 1 swig."

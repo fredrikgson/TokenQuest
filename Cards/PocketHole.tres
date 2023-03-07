@@ -10,3 +10,4 @@ card_type = 1
 card_text = "Yikes! You didn't notice the hole in your pocket this morning. While strutting around the pub, things start to fall out. Lose 1 Token."
 card_art = ExtResource( 2 )
 card_rarity = 0
+extended_description = ""

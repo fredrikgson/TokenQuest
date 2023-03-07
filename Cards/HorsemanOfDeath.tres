@@ -11,4 +11,8 @@ card_text = "For the rest of the game, you are a Horseman.
 When the 4th Horseman is drawn, all players that are NOT Horsemen finish their entire drink."
 card_art = ExtResource( 2 )
 card_rarity = 5
-extended_description = "This is an extended description for Horseman of Death!"
+extended_description = "This is a 'Horseman' card, of which there are 4 in this deck. By drawing this card, you are now considered a Horseman for the rest of this game.
+
+If this is NOT the 4th 'Horseman' card that has been drawn this game, nothing happens right now.
+
+If this IS the 4th 'Horseman' card that has been drawn this game, all players that ARE NOT Horsemen (i.e. that have not drawn a 'Horseman' card) must finish their entire drink."

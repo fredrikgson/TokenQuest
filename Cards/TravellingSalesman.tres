@@ -10,3 +10,4 @@ card_type = 2
 card_text = "A travelling salesman comes to the village. Gain 0-4 Tokens (your choice), then take 1 swig for each Token gained."
 card_art = ExtResource( 2 )
 card_rarity = 0
+extended_description = ""

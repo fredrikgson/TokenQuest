@@ -10,4 +10,8 @@ card_type = 3
 card_text = "Declare a 'Never Have I Ever'-style statement. All players that have done what is stated takes 2 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 1
-extended_description = ""
+extended_description = "Declare a statement in the style of 'never have I ever...'. For instance, 'never have I ever shoplifted'.
+
+All players that HAVE DONE what was stated are penalized with 2 swigs.
+
+For example: if the statement is 'never have I ever broken a bone', the players that HAVE broken a bone take 2 swigs."

@@ -10,3 +10,4 @@ card_type = 1
 card_text = "A charming fisherman takes you out for a drink at the local pub. Take 2 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 0
+extended_description = ""

@@ -10,3 +10,4 @@ card_type = 0
 card_text = "You've spiked your friends drinks with a powerful love potion. All other players give you 1 Token each. The players that cannot take 2 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 3
+extended_description = "This is a 'Potion' card, and can be redirected to affect another player by anyone that has drawn 'Potion Master'."

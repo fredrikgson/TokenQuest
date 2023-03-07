@@ -10,3 +10,4 @@ card_type = 3
 card_text = "The sun rises over your village and a new day begins. All players start the game with 2 Tokens. Let the adventure begin!"
 card_art = ExtResource( 2 )
 card_rarity = 5
+extended_description = ""

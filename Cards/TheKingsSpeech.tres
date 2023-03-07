@@ -10,3 +10,4 @@ card_type = 5
 card_text = "The King announces a new law. Declare a custom rule of your choice. It must be respected for the rest of the game."
 card_art = ExtResource( 2 )
 card_rarity = 2
+extended_description = ""

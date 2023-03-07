@@ -10,4 +10,8 @@ card_type = 2
 card_text = "Choose any other player to form an alliance with. When any of you would take more than 1 swig, the swigs are evenly distributed among you."
 card_art = ExtResource( 2 )
 card_rarity = 1
-extended_description = ""
+extended_description = "Choose another player to form an Alliance with. Whenever any of the players in an Alliance would take more than 1 swig due to a game effect, those swigs are evenly distributed among the players in that Alliance.
+
+If the number is uneven, you must agree on who will take the excess swig for that situation.
+
+If a player that is already in an Alliance draws another copy of 'Alliance', they choose a third player to join the same Alliance instead. Thus, the number of swigs will be divided by three instead of two."

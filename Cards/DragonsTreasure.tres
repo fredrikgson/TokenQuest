@@ -10,3 +10,4 @@ card_type = 0
 card_text = "You've ventured into the mythical red dragon's lair and found its treasure! Gain 6 Tokens."
 card_art = ExtResource( 2 )
 card_rarity = 3
+extended_description = ""

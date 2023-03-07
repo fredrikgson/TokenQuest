@@ -10,3 +10,4 @@ card_type = 3
 card_text = "A celestial being has awoken. Sensing injustice, she strikes upon the greedy. All players with 5 or more Tokens finish their entire drink."
 card_art = ExtResource( 2 )
 card_rarity = 4
+extended_description = ""

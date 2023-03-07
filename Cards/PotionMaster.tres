@@ -10,4 +10,10 @@ card_type = 2
 card_text = "For the rest of the game, every time a 'Potion'-card is drawn, you may redirect it so that it affects another player of your choice."
 card_art = ExtResource( 2 )
 card_rarity = 1
-extended_description = ""
+extended_description = "The effect of 'Potion Master' applies for the rest of the game. A 'potion' card is any card that has the word 'Potion' in its name, besides 'Potion Master'.
+
+You can redirect a 'Potion' card from any player to any other player. This means that you are allowed to redirect a 'Potion' card from another player to yourself.
+
+You may use this effect at any point in the game when any player draws a 'Potion' card, and however many times you want this game, as long as you remember it.
+
+If another 'Potion Master' is drawn, the effect of this 'Potion Master' is removed. There can never be more than one 'Potion Master' in effect."

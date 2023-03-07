@@ -10,4 +10,6 @@ card_type = 5
 card_text = "A royal councilman made an error while writing the law. Exchange the meaning of two words. When a player messes up, they take 2 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 2
-extended_description = ""
+extended_description = "Exchange the meaning of two words. When a player uses one of those words in its' 'true' sense, they are penalized with 2 swigs.
+
+For instance, you can exchance the meaning of the words 'yes' and 'no', or the names of two players."

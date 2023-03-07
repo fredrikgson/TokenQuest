@@ -10,3 +10,4 @@ card_type = 0
 card_text = "You get involved with the Queen, and she takes a liking to you. She spoils you and your friends. Gain 2 Tokens. Choose 2 other players to gain 2 Tokens each."
 card_art = ExtResource( 2 )
 card_rarity = 2
+extended_description = ""

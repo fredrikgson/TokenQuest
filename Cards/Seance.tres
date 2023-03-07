@@ -10,3 +10,10 @@ card_type = 3
 card_text = "Your friend group invokes some black magic. All players play a Game of Whispers. If you fail, all players take 8 swigs. If you win, all players gain 1 Token."
 card_art = ExtResource( 2 )
 card_rarity = 2
+extended_description = "In a Game of Whispers, the objective is for the group to keep a word or sentence intact through a chain of whispers.
+
+Begin by whispering a word or sentence of your choice to the player next to you (you decide the direction), making sure that noone else hears it. 
+
+That player then proceeds to whisper exactly what they heard from you to the third player in the order. 
+
+When the last player is reached, they announce what they heard to the whole group. If it matches what you whispered to the first player, the group has won and all players gain 1 Token. If it does not match, all players are penalized with 8 swigs."

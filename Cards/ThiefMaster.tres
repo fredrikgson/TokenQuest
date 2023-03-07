@@ -10,4 +10,10 @@ card_type = 2
 card_text = "You are aided in your journey by the Thief Master. For the rest of the game, on each of your turns, you may steal a Token from any player."
 card_art = ExtResource( 2 )
 card_rarity = 1
-extended_description = ""
+extended_description = "For the rest of this game, on each of your own turns, you may steal 1 Token from any other player.
+
+After this card has been drawn, your turn is considered to be over. Thus, you may not use the effect of 'Thief Master' on the same turn you drew it.
+
+Therefore, the effect of 'Thief Master' must be used on your own turn BEFORE drawing a card, and can be used for the first time on the NEXT turn after drawing it.
+
+You are allowed to stack effects of 'Thief Master'. Meaning, if you have drawn 2 copies of this card during this game, you may steal 2 Tokens on the start of your turn. These do not have to be from the same player."

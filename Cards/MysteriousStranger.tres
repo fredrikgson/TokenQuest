@@ -10,4 +10,10 @@ card_type = 2
 card_text = "Play a game of 20 Questions. If the other players fail, they take 8 swigs. If they win, you take swigs equal to the remaining questions."
 card_art = ExtResource( 2 )
 card_rarity = 2
-extended_description = ""
+extended_description = "Think of any real or fictional person, but do not reveal it to the other players.
+
+The other players then ask you up to 20 questions in order to figure out what person you are thinking of. You can only answer 'yes' or 'no' to these questions, but must answer truthfully. The players may guess who you are thinking of any number of times, but each guess consumes one of their questions.
+
+If the players cannot guess the person in these 20 questions, they are penalized with 8 swigs each.
+
+If they guess the person correctly, you are penalized with a number of swigs equal to the number of questions the other players had left when they guessed it right. I.e. if the players win on their 8th question, you take 12 swigs."

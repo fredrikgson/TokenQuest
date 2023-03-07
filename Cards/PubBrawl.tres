@@ -10,3 +10,4 @@ card_type = 1
 card_text = "You get involved in a violent pub fight and lose your pouch. Lose a Token. If you cannot, take 4 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 0
+extended_description = ""

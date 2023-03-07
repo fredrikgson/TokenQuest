@@ -10,3 +10,4 @@ card_type = 0
 card_text = "You refresh yourself with a nice cold health potion. Gain 1 Token."
 card_art = ExtResource( 2 )
 card_rarity = 0
+extended_description = "This is a 'Potion' card, and can be redirected to affect another player by anyone that has drawn 'Potion Master'."

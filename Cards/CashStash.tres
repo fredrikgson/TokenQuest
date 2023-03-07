@@ -10,3 +10,4 @@ card_type = 0
 card_text = "You find a bunch of Token bags hidden in a hole. They're probably stashed away by thieves. You decide to grab a bag for yourself. Gain 4 Tokens."
 card_art = ExtResource( 2 )
 card_rarity = 2
+extended_description = ""

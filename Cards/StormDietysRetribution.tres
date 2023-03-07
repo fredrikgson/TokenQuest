@@ -7,6 +7,7 @@
 script = ExtResource( 1 )
 card_name = "Storm Diety's Retribution"
 card_type = 3
-card_text = "An ancient god has awoken. It purges the land of the unworthy. All players lose 5 Tokens, then, the players that have 0 Tokens finish their entire drink."
+card_text = "An ancient god has awoken. It purges the land of the unworthy. All players lose 10 Tokens, then, the players that have 0 Tokens finish their entire drink."
 card_art = ExtResource( 2 )
 card_rarity = 4
+extended_description = "All players lose 10 Tokens. Then, the players that have 0 Tokens as a result of this must finish their entire drinks."

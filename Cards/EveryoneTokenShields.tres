@@ -10,3 +10,4 @@ card_type = 3
 card_text = "All players take 20 swigs MINUS their respective amount of Tokens."
 card_art = ExtResource( 2 )
 card_rarity = 3
+extended_description = ""

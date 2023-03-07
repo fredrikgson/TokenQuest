@@ -10,3 +10,4 @@ card_type = 2
 card_text = "You play a round of craps with your buddies at the local pub. You can pay 1 Token to immediately draw another card (optional)."
 card_art = ExtResource( 2 )
 card_rarity = 0
+extended_description = ""

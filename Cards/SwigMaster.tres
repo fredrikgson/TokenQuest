@@ -10,4 +10,8 @@ card_type = 2
 card_text = "The Swig Master teaches you how to chug brew like a champion. The next time you would lose 1 or more Tokens, you may take 1 swig instead."
 card_art = ExtResource( 2 )
 card_rarity = 1
-extended_description = ""
+extended_description = "The next time you would lose 1 or more Tokens, you may take 1 swig instead.
+
+Even if the amount of Tokens you would lose is greater than 1, you only need to take 1 single swig.
+
+This effect can only be applied to the next time you would lose a Token(s) after drawing this card. In other words, if you forget to use this effect for that time, you cannot use it later."

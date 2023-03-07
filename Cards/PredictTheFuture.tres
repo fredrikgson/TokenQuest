@@ -10,4 +10,15 @@ card_type = 2
 card_text = "Guess the color (green, red, yellow, white, purple, blue) of the card drawn by the next player. If you get it right, gain 4 Tokens. Otherwise, take 4 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 1
-extended_description = ""
+extended_description = "When a card's color is referenced, it is always referring to the card border, and NOT the rarity circle in the top left corner.
+
+Guess the color of the card that the next player draws for their turn. If you guess it correctly, you gain 4 Tokens. Otherwise you are penalized with 4 swigs.
+
+The possible card colors are:
+
+- Green -
+- Red -
+- Yellow -
+- White -
+- Purple -
+- Blue -"

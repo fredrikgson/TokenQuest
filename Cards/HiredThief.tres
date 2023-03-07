@@ -10,3 +10,6 @@ card_type = 0
 card_text = "You hire a professional thief. Steal a total of 2 Tokens from any player(s)."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = "Claim a total of 2 Tokens from any other player or players.
+
+You may claim 2 Tokens from the same player, or 1 Token each from 2 different players."

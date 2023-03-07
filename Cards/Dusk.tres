@@ -10,3 +10,8 @@ card_type = 3
 card_text = "The player with the most Tokens has won the game! All players may now freely distribute a number of swigs up to the amount of Tokens they have."
 card_art = ExtResource( 2 )
 card_rarity = 5
+extended_description = "The game has ended!
+
+The player with the most Tokens is declared the winner.
+
+Finally, all players count their respective Tokens and distribute swigs freely among all players, equal to the number of Tokens they have."

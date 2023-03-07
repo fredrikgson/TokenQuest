@@ -10,3 +10,9 @@ card_type = 0
 card_text = "A kind wizard throws a spell of luck on you. You are unaffected by the next Trap (red card) you draw."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = "When a card's color is referenced, it is always referring to the card border, and NOT the rarity circle in the top left corner. This effect can only be applied to the next time you draw a Trap after drawing this card. In other words, if you forget to use this effect for that time, you cannot use it later.
+
+This effect can only be used for a Trap that you DRAW. Thus, it cannot be used on a Trap that is redirected to you by an effect such as 'Trap Master'. 
+It can also not be used for a Trap that affects you even though you did not draw it, such as being an adjacent player to a player that draws 'Plague'.
+
+If you apply this effect to a Trap that affects other players as well, those players are still affected by the Trap. I.e. if you draw 'Plague', your adjacent players are still affected while you are not."

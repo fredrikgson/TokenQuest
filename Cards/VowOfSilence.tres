@@ -10,4 +10,6 @@ card_type = 1
 card_text = "Your search for spiritual catharsis leads you to take a vow of silence. You may not speak until the start of your next turn. Whenever you do, take 8 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 1
-extended_description = ""
+extended_description = "Until the start of your next turn, you may not speak. If you do, and every time you do, you are penalized with 8 swigs.
+
+The effect of 'Vow Of Silence' applies immediately after you draw this card. Thus, you may not read aloud the effect of this card if you draw it."

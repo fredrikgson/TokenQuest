@@ -10,3 +10,4 @@ card_type = 1
 card_text = "You buy a pint of brew at the local pub. Lose 1 Token, take 2 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 0
+extended_description = ""

@@ -10,3 +10,4 @@ card_type = 0
 card_text = "You're feeling generous and decide to buy a round of drinks for your friends. Distribute 8 swigs freely among all players."
 card_art = ExtResource( 2 )
 card_rarity = 0
+extended_description = "When distributing swigs freely among players, you may choose the same player more than once. You don't have to distribute them evenly. This means that you are allowed to give any number of swigs to any player, as long as you do not exceed 8."

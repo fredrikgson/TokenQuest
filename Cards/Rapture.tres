@@ -10,3 +10,6 @@ card_type = 3
 card_text = "The end of time is upon us and the faithful rise to the clouds, leaving behind the non-believers. All players, except the richest one, finishes their entire drink."
 card_art = ExtResource( 2 )
 card_rarity = 4
+extended_description = "All players count up their respective Tokens. The player with the most Tokens does nothing. All other players must finish their entire drinks.
+
+If two or more players are tied for the most Tokens, neither of them has to drink."

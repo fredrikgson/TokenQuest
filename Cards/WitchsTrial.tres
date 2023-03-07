@@ -10,3 +10,8 @@ card_type = 1
 card_text = "You're on trial for invoking black magic. All other players take a vote. If you're found guilty by a majority of votes, finish your entire drink."
 card_art = ExtResource( 2 )
 card_rarity = 3
+extended_description = "On the count of three, all players (besides yourself) reveal their vote (by thumbs up or thumbs down).
+
+If the majority of the voters show thumbs down, you must finish your entire drink.
+
+If the majority of voters show thumbs up, you are spared and nothing happens."

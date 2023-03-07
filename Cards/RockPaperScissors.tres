@@ -10,3 +10,4 @@ card_type = 4
 card_text = "Play a best-of-3 game of rock, paper, scissors. The winner claims 2 Tokens from the loser."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""

@@ -10,3 +10,8 @@ card_type = 5
 card_text = "You have been knighted by the king. Choose a title for yourself. When a player refers to you by something other than this title, they take 1 swig."
 card_art = ExtResource( 2 )
 card_rarity = 2
+extended_description = "Choose any name for yourself. For the rest of the game, the other players must refer to you by this name.
+
+If a player refers to you by anything other than this name, they are penalized with 1 swig.
+
+This means that while you are The Knighted, if a player calls you by your real name, a nickname or anything else besides the name you chose for this card's effect, they are penalized with 1 swig."

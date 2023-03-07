@@ -10,3 +10,6 @@ card_type = 3
 card_text = "Showdown! All players begin drinking at the same time. Whoever stops last gains 4 Tokens and may skip their next swig if they wish."
 card_art = ExtResource( 2 )
 card_rarity = 3
+extended_description = "On the count of three, all players begin drinking.
+
+The player that is the last to stop drinking gains 4 Tokens. Also, the next time that player would be penalized with one or more swigs, they may choose not to drink."

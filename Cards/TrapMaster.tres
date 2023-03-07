@@ -10,3 +10,8 @@ card_type = 2
 card_text = "Once, when any player draws a Trap (red card), you may redirect it so that it affects another player of your choice."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = "When a card's color is referenced, it is always referring to the card border, and NOT the rarity circle in the top left corner.
+
+You can redirect a Trap from any player to any other player. This means that you are allowed to redirect a Trap from yourself to another player.
+
+You may use this effect at any point in the game when any player draws a Trap, but only once."

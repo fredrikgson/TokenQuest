@@ -10,3 +10,14 @@ card_type = 3
 card_text = "Oh no! A tear in the fabric of space-time has opened. All rules, quests and other active card effects this game are removed, and are no longer in effect."
 card_art = ExtResource( 2 )
 card_rarity = 4
+extended_description = "This card resets all active rules, quests and other card effects. This includes (but is not limited to):
+
+Effects on the game such as those by 'Prohibition', 'The Exiled', 'The King's Speech', 'Bad Omen' etc...
+
+Player-specific buffs and debuffs such as 'Thief Master', 'Vow Of Silence', 'Wizard's Blessing', 'Freeze Spell' etc...
+
+Relationships such as those by 'Alliance', 'Unite For The Pint' etc...
+
+
+
+Effects such as those of 'Herb Man' and 'Psychic Disruption Blast' are however NOT reversed, as they are considered one-time events and not ongoing effects."

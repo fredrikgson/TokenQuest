@@ -10,4 +10,10 @@ card_type = 2
 card_text = "Once (at any point in the game), you may inflate your cheeks and hold. The last player who does the same after you've done so takes 2 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 1
-extended_description = ""
+extended_description = "When this card is drawn, nothing happens immediately. However, after drawing this card, you may at any point blow your cheeks up and hold.
+
+When other players notice that you are doing this, they must do the same.
+
+The player who does so last after you've done so is penalized with 2 swigs.
+
+You may only do this once for each 'Bubble Master' you draw."

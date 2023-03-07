@@ -10,3 +10,4 @@ card_type = 1
 card_text = "An evil wizard places a curse on you. The next Trap (red card) that is drawn also applies to you, even if another player draws it."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""

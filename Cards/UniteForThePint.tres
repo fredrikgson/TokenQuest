@@ -10,4 +10,4 @@ card_type = 4
 card_text = "For the rest of the game, whenever one of you would drink, the other player drinks the same amount."
 card_art = ExtResource( 2 )
 card_rarity = 1
-extended_description = ""
+extended_description = "You and Target player are United for the rest of the game. Whenever one of you would drink due to a game effect, the other player drinks the same amount."

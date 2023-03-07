@@ -10,3 +10,4 @@ card_type = 0
 card_text = "You found a treasure chest! Gain 2 Tokens."
 card_art = ExtResource( 2 )
 card_rarity = 0
+extended_description = ""
