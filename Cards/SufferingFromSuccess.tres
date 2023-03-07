@@ -10,3 +10,4 @@ card_type = 1
 card_text = "As it turns out, mo' money was in fact mo' problems. Take 1 swig for each of your Tokens."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""

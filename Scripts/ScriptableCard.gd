@@ -9,6 +9,7 @@ export(CardTypes) var card_type
 export(String,MULTILINE) var card_text
 export(Image) var card_art
 export(CardRarities) var card_rarity
+export(String, MULTILINE) var extended_description
 
 func get_border_color() -> Color:
 	var color

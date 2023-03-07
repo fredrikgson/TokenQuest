@@ -10,3 +10,4 @@ card_type = 2
 card_text = "Declare a \"who's most likely to\"-statement. All players take a vote by pointing. The player who got the most votes loses 3 Tokens OR takes 6 swigs (their choice)."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""

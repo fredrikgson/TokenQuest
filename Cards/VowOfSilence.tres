@@ -10,3 +10,4 @@ card_type = 1
 card_text = "Your search for spiritual catharsis leads you to take a vow of silence. You may not speak until the start of your next turn. Whenever you do, take 8 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""

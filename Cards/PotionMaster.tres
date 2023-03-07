@@ -10,3 +10,4 @@ card_type = 2
 card_text = "For the rest of the game, every time a 'Potion'-card is drawn, you may redirect it so that it affects another player of your choice."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""

@@ -10,3 +10,4 @@ card_type = 3
 card_text = "Declare a 'Never Have I Ever'-style statement. All players that have done what is stated takes 2 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""

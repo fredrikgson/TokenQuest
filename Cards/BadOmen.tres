@@ -10,3 +10,4 @@ card_type = 2
 card_text = "Declare a card color (green, red, yellow, white, purple, blue). For the rest of the game, when a card of that color is drawn, all players take 2 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""

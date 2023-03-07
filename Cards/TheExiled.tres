@@ -10,3 +10,4 @@ card_type = 5
 card_text = "You have been exiled from the village. For the rest of the game, whenever a player refers to you by name, that player takes one swig."
 card_art = ExtResource( 2 )
 card_rarity = 2
+extended_description = ""

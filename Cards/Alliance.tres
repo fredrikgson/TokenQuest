@@ -10,3 +10,4 @@ card_type = 2
 card_text = "Choose any other player to form an alliance with. When any of you would take more than 1 swig, the swigs are evenly distributed among you."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""

@@ -10,3 +10,4 @@ card_type = 2
 card_text = "Declare a statement about yourself. All other players guess true or false. Claim 1 Token from each wrong player. Take 1 swig for each right player."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""

@@ -10,3 +10,4 @@ card_type = 2
 card_text = "You decide to fight for justice. Steal half of the Tokens from the richest player. Distribute them freely among the other players (not yourself)."
 card_art = ExtResource( 2 )
 card_rarity = 2
+extended_description = ""

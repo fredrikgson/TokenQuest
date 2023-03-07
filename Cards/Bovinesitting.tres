@@ -10,3 +10,4 @@ card_type = 0
 card_text = "You offer to keep an eye on your neighbor's cattle while they're out of town for the day. They pay you well for the trouble. Gain 2 Tokens."
 card_art = ExtResource( 2 )
 card_rarity = 0
+extended_description = ""

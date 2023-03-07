@@ -10,3 +10,4 @@ card_type = 4
 card_text = "Using your finger, spell a word on Target's back. If they can guess it, you take 4 swigs. Otherwise they take 4 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 2
+extended_description = ""

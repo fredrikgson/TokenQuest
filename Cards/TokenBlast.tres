@@ -10,3 +10,4 @@ card_type = 2
 card_text = "You channel the energy of your Tokens into a powerful attack. Distribute swigs freely among all players, equal to the number of Tokens you have."
 card_art = ExtResource( 2 )
 card_rarity = 2
+extended_description = ""

@@ -10,3 +10,4 @@ card_type = 2
 card_text = "The Swig Master teaches you how to chug brew like a champion. The next time you would lose 1 or more Tokens, you may take 1 swig instead."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""

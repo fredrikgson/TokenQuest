@@ -10,3 +10,4 @@ card_type = 2
 card_text = "Perform an act of entertainment. The other players take a vote. If they approve by a majority of votes, gain 2 Tokens. Otherwise, lose 1 Token."
 card_art = ExtResource( 2 )
 card_rarity = 2
+extended_description = ""

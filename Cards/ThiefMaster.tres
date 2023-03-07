@@ -10,3 +10,4 @@ card_type = 2
 card_text = "You are aided in your journey by the Thief Master. For the rest of the game, on each of your turns, you may steal a Token from any player."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""

@@ -10,3 +10,4 @@ card_type = 4
 card_text = "Ask Target any question. They must either answer the question truthfully OR take 8 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""

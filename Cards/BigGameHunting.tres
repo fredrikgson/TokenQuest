@@ -10,3 +10,4 @@ card_type = 0
 card_text = "Your hunt was a success and you decide to invite a friend over for dinner. Gain 1 Token, then choose any player (besides yourself) to gain 1 Token."
 card_art = ExtResource( 2 )
 card_rarity = 0
+extended_description = ""

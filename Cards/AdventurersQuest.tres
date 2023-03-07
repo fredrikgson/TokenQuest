@@ -10,3 +10,4 @@ card_type = 4
 card_text = "You have a mission for a brave adventurer. Give Target a dare. They must either do the dare OR take 8 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""

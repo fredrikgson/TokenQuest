@@ -73,10 +73,7 @@ func _ready():
 	deck.push_back(load("res://Cards/Dusk.tres"))
 	
 	## FOR DEBUGGING PURPOSES
-	deck.push_front(load("res://Cards/HorsemanOfDeath.tres"))
-	
-	for i in deck:
-		print(i.card_name)
+	##deck.push_front(load("res://Cards/HorsemanOfDeath.tres"))
 	
 	## always begin game in idle state
 	Mstr.state = Mstr.States.IDLE

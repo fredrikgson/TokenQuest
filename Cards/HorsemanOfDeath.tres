@@ -11,3 +11,4 @@ card_text = "For the rest of the game, you are a Horseman.
 When the 4th Horseman is drawn, all players that are NOT Horsemen finish their entire drink."
 card_art = ExtResource( 2 )
 card_rarity = 5
+extended_description = "This is an extended description for Horseman of Death!"

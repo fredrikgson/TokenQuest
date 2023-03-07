@@ -10,3 +10,4 @@ card_type = 3
 card_text = "You unleash the ancient magic of your Tokens. All other players take swigs equal to the number of Tokens you have."
 card_art = ExtResource( 2 )
 card_rarity = 3
+extended_description = ""

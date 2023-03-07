@@ -10,3 +10,4 @@ card_type = 3
 card_text = "On the count of three, all players simultaneuosly look at any other player. If any two players lock eyes, they take 6 swigs each. Those who don't gain 1 Token."
 card_art = ExtResource( 2 )
 card_rarity = 2
+extended_description = ""

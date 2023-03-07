@@ -1,5 +1,8 @@
 extends Area2D
 
+## stores the resource
+var resource:Card
+
 ## used for the double tap shenanigans
 ## to prevent accidental tapping-removing
 var block_remove = true
@@ -41,11 +44,16 @@ func _on_AnimationPlayer_animation_finished(anim_name):
 	if anim_name == "Display":
 		## animation for showing card is completed, change state in Mstr
 		Mstr.state = Mstr.States.DISPLAYING_CARD
+		
+		## also, if card has extended desc, show the button
+		if resource and resource.extended_description != "" and resource.extended_description != null:
+			$ExtendedDesc.visible = true
 
 
 ## renders a card from a Card resource onto the Card shown
 ## this is called from Deck.gd when a new card is drawn
 func init_from_resource(res:Card):
+	resource = res
 	$Outline/BorderColor.self_modulate = res.get_border_color()
 	$Outline/CardArt.texture = res.card_art
 	$Outline/CardName.text = res.card_name
@@ -57,9 +65,29 @@ func init_from_resource(res:Card):
 		duel_opponents.shuffle()
 		var opp = duel_opponents.front()
 		$Outline/CardDescription.text += " Target " + str(opp) + "."
+	
+	## set up extended description
+	## this happens even if there is no such
+	## however, the button to display extended desc won't show up
+	$Outline/ExtendedDescription/Outline/BorderColor.self_modulate = res.get_border_color()
+	$Outline/ExtendedDescription/Outline/CardName.text = res.card_name
+	$Outline/ExtendedDescription/Outline/Desc.text = res.extended_description
 
 
 ## tap timer
 func _on_Timer_timeout():
 	block_remove = true
 	$Outline.modulate.a = 1
+
+
+## when user taps on extended description button
+func _on_ExtendedDesc_input_event(viewport, event, shape_idx):
+	if event is InputEventMouseButton and event.pressed:
+		
+		## toggle if extended desc is visible or not
+		if $Outline/ExtendedDescription.visible:
+			$Outline/ExtendedDescription.visible = false
+			$ExtendedDesc/Sprite.frame = 0
+		else:
+			$Outline/ExtendedDescription.visible = true
+			$ExtendedDesc/Sprite.frame = 1

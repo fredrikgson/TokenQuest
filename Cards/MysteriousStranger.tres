@@ -10,3 +10,4 @@ card_type = 2
 card_text = "Play a game of 20 Questions. If the other players fail, they take 8 swigs. If they win, you take swigs equal to the remaining questions."
 card_art = ExtResource( 2 )
 card_rarity = 2
+extended_description = ""

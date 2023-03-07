@@ -10,3 +10,4 @@ card_type = 2
 card_text = "Once, at any point, you may place your hand on the back of your head and hold. The last player who does the same after you've done so takes 2 swigs."
 card_art = ExtResource( 2 )
 card_rarity = 1
+extended_description = ""
