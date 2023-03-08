@@ -7,6 +7,10 @@ var resource:Card
 ## to prevent accidental tapping-removing
 var block_remove = true
 
+## sounds for extended description button
+onready var stream_open = $ExtendedDesc/stream_open
+onready var stream_close = $ExtendedDesc/stream_close
+
 ## possible opponents for Duel cards
 ## one of these strings will be appended to the card text is it is a Duel card
 var duel_opponents = [
@@ -24,8 +28,11 @@ var duel_opponents = [
 	"the least drunk player",
 	"the player with the most Tokens",
 	"the player you know the least",
-	"the player you know the best"
+	"the player you know the best",
+	"the tallest player",
+	"the shortest player"
 ]
+
 
 ## remove from screen if user taps on the card
 func _on_Card_input_event(_viewport, event, _shape_idx):
@@ -88,6 +95,8 @@ func _on_ExtendedDesc_input_event(viewport, event, shape_idx):
 		if $Outline/ExtendedDescription.visible:
 			$Outline/ExtendedDescription.visible = false
 			$ExtendedDesc/Sprite.frame = 0
+			stream_close.play()
 		else:
 			$Outline/ExtendedDescription.visible = true
 			$ExtendedDesc/Sprite.frame = 1
+			stream_open.play()

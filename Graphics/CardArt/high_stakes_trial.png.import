@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/extended_description_button_closed.png-6418501bbf535017f195663be859a7e3.stex"
+path="res://.import/high_stakes_trial.png-0c585fd59a055ed6212d8edbf0ea51f8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Graphics/UI/extended_description_button_closed.png"
-dest_files=[ "res://.import/extended_description_button_closed.png-6418501bbf535017f195663be859a7e3.stex" ]
+source_file="res://Graphics/CardArt/high_stakes_trial.png"
+dest_files=[ "res://.import/high_stakes_trial.png-0c585fd59a055ed6212d8edbf0ea51f8.stex" ]
 
 [params]
 

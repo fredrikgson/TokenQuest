@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/token_quest_logo.png-0f2588d8086c8ba831a6087bc653474a.stex"
+path="res://.import/divorce.png-9da9b81d7d6684ac47f8bf0e0356bc77.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Graphics/token_quest_logo.png"
-dest_files=[ "res://.import/token_quest_logo.png-0f2588d8086c8ba831a6087bc653474a.stex" ]
+source_file="res://Graphics/CardArt/divorce.png"
+dest_files=[ "res://.import/divorce.png-9da9b81d7d6684ac47f8bf0e0356bc77.stex" ]
 
 [params]
 

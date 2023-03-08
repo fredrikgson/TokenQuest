@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/divorce.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Divorce"
+card_type = 4
+card_text = "Distribute yours and Target's Tokens evenly among the two of you. You take 10 swigs each to cope with the sadness."
+card_art = ExtResource( 2 )
+card_rarity = 2
+extended_description = "You and Target player get a divorce after a brief marriage.
+
+Exchange Tokens between each other, so that you both have the same amount. If the total is uneven, the remaining Token is lost (returned to the Token bank).
+
+Then, you and Target player take 10 swigs each."

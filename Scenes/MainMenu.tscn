@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://Graphics/token_quest_logo.png" type="Texture" id=1]
+[ext_resource path="res://Graphics/token_quest_logo_new.png" type="Texture" id=1]
 [ext_resource path="res://Prefab/ChangeSceneButton.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scripts/MainMenu.gd" type="Script" id=4]
 
@@ -20,8 +20,3 @@ target_scene = "res://Scenes/Game.tscn"
 position = Vector2( 540, 1340 )
 button_text = "How To Play"
 target_scene = "res://Scenes/HowToPlay.tscn"
-
-[node name="CardDBButton2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 540, 1624 )
-button_text = "Card Database"
-target_scene = "res://Scenes/CardDatabase.tscn"

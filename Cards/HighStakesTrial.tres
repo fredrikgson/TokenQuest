@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/high_stakes_trial.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "High Stakes Trial"
+card_type = 1
+card_text = "All other players may vote Yes or No, but they must take 4 swigs each to vote. If the Yes-votes outweigh the No-votes, you lose all your Tokens."
+card_art = ExtResource( 2 )
+card_rarity = 3
+extended_description = "You are on trial. All other players may place a vote on whether or not you should lose all your Tokens by voting 'Yes' or 'No'. However, to place a vote, that player must take 4 swigs. Players may choose not to vote.
+
+If (when all players have voted or opted out) the number of 'Yes'-votes is greater than the number of 'No'-votes, you lose all your Tokens.
+
+If the number of 'No'-votes is greater than the 'Yes'-votes, or if there is a tie, nothing happens."

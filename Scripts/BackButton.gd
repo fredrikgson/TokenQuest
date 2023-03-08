@@ -28,9 +28,13 @@ func _on_Area2D_input_event(viewport, event, shape_idx):
 			# make button active for a short time
 			block_redirect = false
 			$Area2D/Sprite.self_modulate.a = 1
+			$TapAgainInstruction.visible = true
 			timer.start()
 
 
 func _on_Timer_timeout():
 	block_redirect = true
 	$Area2D/Sprite.self_modulate.a = 0.4
+	$TapAgainInstruction.visible = false
+
+
