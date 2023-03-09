@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://Graphics/card_outline.png" type="Texture" id=1]
 [ext_resource path="res://Graphics/card_border_color.png" type="Texture" id=2]
@@ -12,6 +12,7 @@
 [ext_resource path="res://Graphics/extended_card_border_color.png" type="Texture" id=10]
 [ext_resource path="res://Audio/extended_desc_open.wav" type="AudioStream" id=11]
 [ext_resource path="res://Audio/extended_desc_close.wav" type="AudioStream" id=12]
+[ext_resource path="res://Graphics/UI/attention_arrow.png" type="Texture" id=13]
 
 [sub_resource type="DynamicFont" id=1]
 size = 75
@@ -65,6 +66,18 @@ extents = Vector2( 458.646, 629.679 )
 
 [sub_resource type="CircleShape2D" id=7]
 radius = 100.0
+
+[sub_resource type="DynamicFont" id=8]
+size = 50
+outline_color = Color( 0.345098, 0.313726, 0.313726, 1 )
+extra_spacing_top = -30
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=9]
+size = 40
+outline_color = Color( 0.345098, 0.313726, 0.313726, 1 )
+extra_spacing_top = -30
+font_data = ExtResource( 4 )
 
 [node name="Card" type="Area2D"]
 script = ExtResource( 6 )
@@ -175,6 +188,46 @@ stream = ExtResource( 11 )
 
 [node name="stream_close" type="AudioStreamPlayer2D" parent="ExtendedDesc"]
 stream = ExtResource( 12 )
+
+[node name="Tutorial" type="Node2D" parent="."]
+visible = false
+
+[node name="TapCard" type="Sprite" parent="Tutorial"]
+position = Vector2( 298, -716 )
+rotation = -1.48353
+texture = ExtResource( 13 )
+
+[node name="Label" type="Label" parent="Tutorial"]
+margin_left = -342.0
+margin_top = -756.0
+margin_right = 260.0
+margin_bottom = -659.0
+custom_fonts/font = SubResource( 8 )
+custom_colors/font_color = Color( 0, 0, 0, 0.721569 )
+text = "Double-tap card to proceed 
+to the next player's turn!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ExtDesc" type="Sprite" parent="Tutorial"]
+position = Vector2( 179.174, 745.335 )
+rotation = -0.349066
+texture = ExtResource( 13 )
+
+[node name="Label2" type="Label" parent="Tutorial"]
+margin_left = 252.652
+margin_top = 704.802
+margin_right = 608.652
+margin_bottom = 806.802
+custom_fonts/font = SubResource( 9 )
+custom_colors/font_color = Color( 0, 0, 0, 0.721569 )
+text = "Tap to toggle
+extended card
+description!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="input_event" from="." to="." method="_on_Card_input_event"]
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

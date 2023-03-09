@@ -51,6 +51,10 @@ func _on_AnimationPlayer_animation_finished(anim_name):
 	if anim_name == "Display":
 		## animation for showing card is completed, change state in Mstr
 		Mstr.state = Mstr.States.DISPLAYING_CARD
+		Mstr.drawn_cards.append(resource)
+		
+		## if this is the first card, show tutorial
+		if(len(Mstr.drawn_cards) == 1): $Tutorial.visible = true
 		
 		## also, if card has extended desc, show the button
 		if resource and resource.extended_description != "" and resource.extended_description != null:

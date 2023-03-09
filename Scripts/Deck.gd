@@ -73,10 +73,11 @@ func _ready():
 	deck.push_back(load("res://Cards/Dusk.tres"))
 	
 	## FOR DEBUGGING PURPOSES
-	##deck.push_front(load("res://Cards/ThiefMaster.tres"))
+	##deck.push_front(load("res://Cards/BozorgTheGiant.tres"))
 	
 	## always begin game in idle state
 	Mstr.state = Mstr.States.IDLE
+	Mstr.drawn_cards = []
 	
 	## finally
 	deck_loaded = true
@@ -93,6 +94,7 @@ func _on_Deck_input_event(_viewport, event, _shape_idx):
 			
 			Mstr.state = Mstr.States.LOCKED
 			$AnimationPlayer.play("Draw")
+			if($Tutorial.visible): $Tutorial.visible = false
 
 
 ## called by Draw animation
@@ -103,6 +105,8 @@ func spawn_card():
 	new_card.init_from_resource(deck.pop_front())
 	
 	get_node("../CardHolder").add_child(new_card)
+	
+	## card gets added to Mstr.drawn_cards from the Card class
 
 
 func play_card_draw_SFX():
@@ -113,6 +117,9 @@ func play_card_draw_SFX():
 ## delays state reset by 0.2 to prevent accidental double tap
 func _on_ChangeStateToIdle_timeout():
 	Mstr.state = Mstr.States.IDLE
+	
+	## if there are no more cards in the deck, show Play again button
+	if len(deck) < 1: $PlayAgainButton.visible = true
 
 
 

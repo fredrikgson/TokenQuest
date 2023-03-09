@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/bozorg_the_giant.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Bozorg The Giant"
+card_type = 3
+card_text = "A giant stomps your whole village to the ground, leaving everyone to start over from nothing. Each players' Token count becomes 2."
+card_art = ExtResource( 2 )
+card_rarity = 4
+extended_description = "Bozorg The Giant stomps your whole village to the ground, and all inhabitants must start rebuilding their lives from scratch.
+
+Each player's Token count is set to 2.
+
+If a player has more than 2 Tokens, they must lose Tokens until they have only 2 left.
+
+If a player has fewer than 2 Tokens, they gain Tokens until they have 2."
