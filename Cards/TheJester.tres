@@ -10,4 +10,10 @@ card_type = 2
 card_text = "Perform an act of entertainment. The other players take a vote. If they approve by a majority of votes, gain 2 Tokens. Otherwise, lose 1 Token."
 card_art = ExtResource( 2 )
 card_rarity = 2
-extended_description = ""
+extended_description = "You are tasked to entertain the other players by performing an act. You may do whatever you wish, but the goal is to entertain the other players.
+
+When your act is over, all other players vote on whether they approve of your act or not.
+
+If a majority of the players approve, you are rewarded with 2 Tokens.
+
+If tied, or if a majority of the players disapprove, you lose 1 Token."
