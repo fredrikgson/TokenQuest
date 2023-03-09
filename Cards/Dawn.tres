@@ -14,6 +14,6 @@ extended_description = "Welcome to a new game of TokenQuest!
 
 In order to play, you need something to represent Tokens. Candy pieces are perfect, but any item that you have a good amount of will do. Place the Tokens in a pile in the center of the table (or off to the side). This is the Token bank.
 
-Whenever a player is instructed to gain Tokens, they are transferred from the Token bank to that player. When a player is instructed to lose Tokens, those Tokens are taken from that player and returned to the bank.
+Whenever a player is instructed to gain Tokens, those Tokens are transferred from the bank to that player. When a player is instructed to lose Tokens, those Tokens are taken from that player and returned to the bank.
 
 Start the game by dealing 2 Tokens to each player from the Token bank. The turn then passes to the next player in the clockwise order, and it becomes their turn to draw a card."

@@ -5,13 +5,13 @@
 [ext_resource path="res://Scripts/GoToURLButton.gd" type="Script" id=3]
 
 [sub_resource type="DynamicFont" id=1]
-size = 75
+size = 60
 outline_size = 8
 outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 2 )
 
 [sub_resource type="DynamicFont" id=2]
-size = 60
+size = 50
 extra_spacing_bottom = -30
 font_data = ExtResource( 2 )
 
@@ -56,7 +56,11 @@ margin_right = 1016.0
 margin_bottom = 481.0
 custom_fonts/font = SubResource( 2 )
 custom_colors/font_color = Color( 0, 0, 0, 0.721569 )
-text = "To play TokenQuest, you will need something to represent Tokens. Candy pieces are perfect, but any small objects work."
+text = "To play TokenQuest, you will need only 2 things: 
+
+    1.    Drinks!
+	
+    2.    Something to represent Tokens. Candy pieces are perfect, but any item that you have a good amount of will work."
 autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -65,9 +69,9 @@ __meta__ = {
 [node name="Header2" type="Label" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_top = 550.0
+margin_top = 686.0
 margin_right = 1080.0
-margin_bottom = 665.0
+margin_bottom = 801.0
 custom_fonts/font = SubResource( 1 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 text = "--- How to play ---"
@@ -80,14 +84,16 @@ __meta__ = {
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 64.0
-margin_top = 648.0
+margin_top = 784.0
 margin_right = 1016.0
-margin_bottom = 1490.0
+margin_bottom = 1626.0
 custom_fonts/font = SubResource( 2 )
 custom_colors/font_color = Color( 0, 0, 0, 0.721569 )
-text = "Seat all players around the smartphone running TokenQuest. Decide who will take the first turn.
+text = "Seat all players (ideally 3-8) around the smartphone running TokenQuest. Decide who will take the first turn.
 
-The player begins their turn by drawing a card from the deck. The player reads the card text out loud, and proceeds to follow the card's instructions. When the card is resolved, the turn passes to the next player in a clockwise order. Keep doing this until the last card is drawn!"
+The player begins their turn by drawing a card from the deck. The player reads the card text out loud, and proceeds to follow the card's instructions. 
+
+When the card is resolved and all the instructions have been followed, the turn passes to the next player in a clockwise order. Keep doing this until the last card is drawn!"
 autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
