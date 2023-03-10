@@ -1,0 +1,21 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/ScriptableCard.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/CardArt/seeing_visions.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+card_name = "Seeing Visions"
+card_type = 2
+card_text = "The local herb man sold you some suspicious plants. Play a round of I Spy. The player that wins gains 2 Tokens. Also, you gain 1 Token. All other players take 6 swigs."
+card_art = ExtResource( 2 )
+card_rarity = 2
+extended_description = "You bought a suspicious plant from the local herb man and started to hallucinate.
+
+Choose an object in the room that all players can see, but don't tell them which one it is. Now, give the other players a clue of what the object is by saying 'I spy with my little eye...' followed by something that describes the object.
+
+For instance, if you choose a drinking glass, you could say 'I spy with my little eye something that is transparent'.
+
+The player that first guesses the object correctly gains 2 Tokens. Also, you gain 1 Token.
+
+All other players (the losing ones) are penalized with 6 swigs."
